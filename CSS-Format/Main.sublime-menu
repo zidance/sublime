@@ -1,0 +1,120 @@
+[
+	{
+		"id": "edit",
+		"children":
+		[
+			{
+				"caption": "-"
+			}, 
+			{
+				"id": "css_format",
+				"caption": "CSS Format",
+				"children":
+				[
+					{
+						"caption": "Expanded",
+						"command": "css_format",
+						"args": { "action": "expand"}
+					},
+					{
+						"caption": "Expanded (Break Selectors)",
+						"command": "css_format",
+						"args": { "action": "expand-bs"}
+					},
+					{
+						"caption": "Compact",
+						"command": "css_format",
+						"args": { "action": "compact" }
+					},
+					{
+						"caption": "Compact (No Spaces)",
+						"command": "css_format",
+						"args": { "action": "compact-ns" }
+					},
+					{
+						"caption": "Compact (Break Selectors)",
+						"command": "css_format",
+						"args": { "action": "compact-bs" }
+					},
+					{
+						"caption": "Compact (Break Selectors, No Spaces)",
+						"command": "css_format",
+						"args": { "action": "compact-bs-ns" }
+					},
+					{
+						"caption": "Compressed",
+						"command": "css_format",
+						"args": { "action": "compress" }
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "CSS Format",
+						"children":
+						[
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/CSS Format/README.md"},
+								"caption": "README"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/CSS Format/CSS Format.sublime-settings"},
+								"caption": "Settings – Default"
+							},
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/User/CSS Format.sublime-settings"},
+								"caption": "Settings – User"
+							},
+							{ "caption": "-" },
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/CSS Format/Example.sublime-keymap"
+								},
+								"caption": "Key Bindings – Example"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (Windows).sublime-keymap",
+									"platform": "Windows"
+								},
+								"caption": "Key Bindings – User"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (OSX).sublime-keymap",
+									"platform": "OSX"
+								},
+								"caption": "Key Bindings – User"
+							},
+							{
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/Default (Linux).sublime-keymap",
+									"platform": "Linux"
+								},
+								"caption": "Key Bindings – User"
+							},
+							{ "caption": "-" }
+						]
+					}
+				]
+			}
+		]
+	}
+]

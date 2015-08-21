@@ -1,0 +1,5 @@
+CSS Format 1.0.4 Changelog:
+
+New features
+ - Format on save.
+ - Config Indentation.
