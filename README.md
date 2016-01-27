@@ -1,4 +1,4 @@
-# sublime
+# Sublime Text 3
 Sublime text拓展插件整理，间断更新补全中...
 
 ## 安装Sublime Text 2插件的方法：
