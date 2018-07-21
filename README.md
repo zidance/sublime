@@ -37,6 +37,7 @@ Zen Coding估计大家都不会陌生，前不久改名为Emmet了，你只需�
 
 ![
 ](http://static.oschina.net/uploads/img/201402/05081902_YBUL.gif)
+![](https://cdn.yuque.com/yuque/0/2018/jpeg/94873/1531452915701-4dd04dfc-8f85-4ebd-b5fc-51ab99be064b.jpeg)
 
 ### 2. SublimeEnhancements
 > [github官方](https://github.com/titoBouzout/SideBarEnhancements)
